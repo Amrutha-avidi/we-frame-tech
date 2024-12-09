@@ -1,6 +1,8 @@
 
 import ProductCard from "./ProductCard";
 export default function Interest() {
+        {/* Product Data */ }
+
     const cardData = [
         {
             title: "Title",

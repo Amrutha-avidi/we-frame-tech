@@ -10,6 +10,8 @@ import 'swiper/css/scrollbar';
 import ProductCard from "./ProductCard";
 
 export default function SimilarArticles() {
+    {/* Product Data */ }
+
     const similarProducts = [
         {
             title: "Title",
@@ -76,8 +78,10 @@ export default function SimilarArticles() {
                 <p className="text-xs underline">VOIR TOUTE LA COLLECTION </p>
             </div>
             <div className='flex justify-end items-center'>
+                {/* Implementation of Product Slider using Swiper package */}
+
                 <Swiper modules={[Navigation]}
-                    spaceBetween={10}
+                    spaceBetween={10} 
                     slidesPerView={1}
                     loop={false}
                     navigation

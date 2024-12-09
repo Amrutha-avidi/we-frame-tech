@@ -1,4 +1,4 @@
-"use client"; // This is required to use state or other client-side logic
+"use client";
 
 import { useState } from "react";
 import { CiSearch, CiHeart } from "react-icons/ci";

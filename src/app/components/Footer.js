@@ -7,6 +7,8 @@ export default function Footer() {
     <footer className="px-4 md:px-10 py-6">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
         <div className="flex flex-col justify-center items-center text-center md:flex-row gap-10 md:text-left" >
+          {/* logo image */}
+
           <img
             src="/logo.png"
             alt="logo"
@@ -32,7 +34,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-2">
             <h2 className="text-[#393939] text-md font-bold group">MON COMPTE
-            <div className="bg-pink-300 mt-[-2px] h-[2px] w-0 group-hover:w-[100%] transition-all duration-500"></div>
+              <div className="bg-pink-300 mt-[-2px] h-[2px] w-0 group-hover:w-[100%] transition-all duration-500"></div>
 
             </h2>
             <p className="text-gray-500">

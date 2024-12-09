@@ -5,6 +5,7 @@ import { CiHeart } from "react-icons/ci";
 export default function MainProduct() {
     return (
         <div className="flex flex-col md:flex md:flex-row  justify-center gap-5 p-5 md:p-7 ">
+            {/*Image section */}
             <div className="bg-[#F8F6F4] md:w-1/2 flex flex-col md:flex md:flex-row    p-2 rounded-2xl">
                 <div className="flex md:flex-col gap-1">
                     <img className="w-[55px] h-[55px] bg-white p-2 rounded-md" src='/Table.png' alt='table' />
@@ -19,6 +20,8 @@ export default function MainProduct() {
 
 
             </div>
+            {/*Title and Product Price,Dimention  section */}
+
             <div className="md:w-1/2 flex flex-col justify-between px-2 py-0 md:px-5">
                 <div>
                     <div className="flex justify-between">
@@ -75,10 +78,12 @@ export default function MainProduct() {
                 </div>
                 <div>
                     <hr className="my-3" />
+                     {/*Quantity and add to cart buttons*/}
                     <div className="grid grid-cols-[1fr_3fr] gap-2">
                         <div className="flex justify-between items-center border border-1 rounded-md p-2 md:p-3 ">
                             <FiMinus /><span>1</span><FiPlus />
                         </div>
+           
 
                         <button className="group relative overflow-hidden bg-[#5CD2DD] rounded-md px-8 py-4 text-white transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bg-[#5CD2DD] hover:to-bg-[#abe8ed] hover:ring-2 hover:ring-bg-[#5CD2DD] hover:ring-offset-2">
                             <span className="ease absolute right-0 -mt-12 h-32 w-8 translate-x-40 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-40"></span>

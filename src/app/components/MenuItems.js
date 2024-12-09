@@ -1,6 +1,8 @@
 import { LuDot } from "react-icons/lu";
 
 export default function MenuItems() {
+    {/* Menu Items Data in Navbar */ }
+
     const menuItems = ["ART DE LA TABLE",
         "MOBILIER",
         "NAPPAGE",
@@ -14,6 +16,8 @@ export default function MenuItems() {
     return (
 
         <div className="flex flex-col ">
+            {/* Overflow property for better responsivness */}
+
             <div className="flex md:justify-between items-center gap-5 overflow-y-auto px-4 pt-2  md:px-7 md:pt-4" >
                 {menuItems.map((item, index) => (
                     <span
