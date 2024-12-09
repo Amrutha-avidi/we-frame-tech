@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Navbar />
       <MenuItems />
-     <MainProduct />
+      <MainProduct />
       <Decription />
       <SimilarArticles />
       <Interest />
