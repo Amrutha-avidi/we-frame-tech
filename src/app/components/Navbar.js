@@ -21,7 +21,7 @@ export default function Navbar() {
                 {/* Logo Section */}
                 <div className="flex-shrink-0">
                     <img
-                        src="https://res.cloudinary.com/drpddho9b/image/upload/v1733591495/Group_bksdhl.png"
+                         src="/logo.png"
                         alt="logo"
                         className="h-9 w-20 md:h-16 md:w-[130px]"
                     />
