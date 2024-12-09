@@ -14,10 +14,9 @@ export default function Register() {
 
             {/* Content Section */}
             <div className="md:w-1/2  bg-[#FFF3F9] rounded-lg md:rounded-3xl p-7">
-                <h2 className="group text-[25px] md:text-[45px] text-gray-600">S&apos;inscrire & économiser <span className="text-[#5CD2DD]">10%</span>
-                    <div className="bg-pink-300 mt-[-5px] h-[2px] w-0 group-hover:w-[85%] transition-all duration-500"></div>
-
+                <h2 className="overflow-hidden whitespace-nowrap animate-typewriter border-r-[2px] border-pink-400 text-[25px] md:text-[45px] text-gray-600">S&apos;inscrire & économiser <span className="text-[#5CD2DD]">10%</span>
                 </h2>
+              
                 <p className="text-sm md:text-[16px] text-[#BDA2B0] mt-2 leading-6">
                     Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest most opportunity didnt. Yet busy any meeting shark light marginalised 4-blocker message. Productize corporate nail caught synergy highlights lunch. Company another pushback items dear or any.
                 </p>
@@ -30,13 +29,13 @@ export default function Register() {
                     />
                     <button className="group relative  w-full md:w-auto rounded-md border-2 border-[#5CD2DD] bg-[#5CD2DD] py-3 md:py-4 px-6 font-medium transition-all hover:bg-white">
                         <span className="absolute inset-0 rounded border-0 border-white transition-all duration-100 ease-linear group-hover:border-[25px]"></span>
-                        <span className="  flex items-center justify-center relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-[#5CD2DD]"> s&apos;inscrire <GoArrowRight className="ml-2" /></span>
+                        <span className="  flex items-center justify-center relative w-full text-left text-white transition-colors duration-900 ease-in-out group-hover:text-[#5CD2DD]"> s&apos;inscrire <GoArrowRight className="ml-2" /></span>
                     </button>
 
 
                 </div>
             </div>
-            
+
         </div>
     );
 }
