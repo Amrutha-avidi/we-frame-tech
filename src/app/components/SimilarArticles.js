@@ -84,7 +84,7 @@ export default function SimilarArticles() {
             </div>
             <div className='flex justify-end items-center'>
                 <Swiper modules={[Navigation]}
-                    spaceBetween={20}
+                    spaceBetween={30}
                     slidesPerView={1}
                     loop={false}
                     navigation                 

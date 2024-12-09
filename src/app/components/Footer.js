@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <h1 className="text-[#393939] text-md font-bold">INFOS PRATIQUES</h1>
             <p className="text-gray-500">
-              A propos <br /> Livraisons & Reprises <br /> Mode d&apos;emploi <br />F.A.Q.
+              A propos <br /> Livraisons & Reprises <br /> Mode d&apos;emploi <br />F.A.Q
             </p>
           </div>
           <div className="flex flex-col gap-2">
@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <h1 className="text-[#393939] text-md font-bold">MON COMPTE</h1>
             <p className="text-gray-500">
-              Accéder à mon compte <br />Ma liste d’envies <br /> Créer un compte <br />Mot de passe oublié
+              Accéder à mon compte <br />Ma liste d&apos;envies <br /> Créer un compte <br />Mot de passe oublié
             </p>
           </div>
         </div>
