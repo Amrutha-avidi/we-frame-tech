@@ -2,7 +2,7 @@ import { GoArrowRight } from "react-icons/go";
 
 export default function Register() {
     return (
-        <div className="flex flex-col justify-center items-center md:flex md:flex-row gap-5 p-5 md:p-10">
+        <div className="flex flex-col justify-center items-center lg:flex lg:flex-row gap-5 p-5 md:p-10">
             {/* Image Section */}
             <div className="md:w-1/2">
                 <img

@@ -1,7 +1,13 @@
-"use client"; 
-import { useState } from 'react';
+"use client";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 import ProductCard from "./ProductCard";
-import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 
 export default function SimilarArticles() {
     const similarProducts = [
@@ -69,20 +75,7 @@ export default function SimilarArticles() {
             quantity: 20,
         },
     ];
-    const [current, setCurrent] = useState(0);
-    const length = Math.ceil(similarProducts.length / 5);
 
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
-    };
-
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
-    };
-
-    if (!Array.isArray(similarProducts) || similarProducts.length <= 0) {
-        return null;
-    }
     return (
         <div className="p-7">
             <div className="flex justify-between">
@@ -90,13 +83,41 @@ export default function SimilarArticles() {
                 <p className="text-xs underline">VOIR TOUTE LA COLLECTION </p>
             </div>
             <div className='flex justify-end items-center'>
-                <GoArrowLeft className='absolute left-8 z-10 text-3xl bg-[#5CD2DD] text-white cursor-pointer' onClick={prevSlide} />
-                <div className='grid grid-cols-4 gap-4 w-full px-5'>
-                    {similarProducts.slice(current * 4, current * 4 + 4).map((data, index) => (
-                       <ProductCard key={index} {...data} />
-                    ))}
-                </div>
-                <GoArrowRight className='absolute right-8 z-10 text-3xl text-white bg-[#5CD2DD] cursor-pointer' onClick={nextSlide} />
+                <Swiper modules={[Navigation]}
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    loop={false}
+                    navigation                 
+                    breakpoints={{
+                        // small devices
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        },
+                        // medium devices
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        // large devices
+                        1024: {
+                            slidesPerView: 4.5,
+                            spaceBetween: 50,
+                        },
+                    }}
+
+                >
+                    <div className='grid grid-cols-4 gap-4 w-full px-5'>
+                        {similarProducts.map((data, index) => (
+                            <SwiperSlide key={index} >
+                                <ProductCard {...data} />
+                            </SwiperSlide>
+
+                        ))}
+                    </div>
+
+                </Swiper>
+            
             </div>
         </div>
     )
