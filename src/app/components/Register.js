@@ -14,7 +14,7 @@ export default function Register() {
 
             {/* Content Section */}
             <div className="md:w-1/2  bg-[#FFF3F9] rounded-lg md:rounded-3xl p-7">
-                <h1 className="text-[25px] md:text-[45px] text-gray-600">S%apos;inscrire & économiser <span className="text-[#5CD2DD]">10%</span></h1>
+                <h1 className="text-[25px] md:text-[45px] text-gray-600">S&apos;inscrire & économiser <span className="text-[#5CD2DD]">10%</span></h1>
                 <p className="text-sm md:text-[16px] text-[#BDA2B0] mt-2 leading-6">
                     Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest most opportunity didnt. Yet busy any meeting shark light marginalised 4-blocker message. Productize corporate nail caught synergy highlights lunch. Company another pushback items dear or any.
                 </p>
