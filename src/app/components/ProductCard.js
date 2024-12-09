@@ -1,6 +1,6 @@
 import { CiHeart } from "react-icons/ci";
 
-export default function ProductCard({ title, category, imageSrc, price, reference, quantity }) {
+export default function ProductCard({ title, category, imageSrc,  reference, quantity }) {
     return (
         <div className="flex flex-col justify-center bg-[#F9F7F5] rounded-xl  ">
             <div className="flex justify-between items-center p-5">
@@ -18,7 +18,7 @@ export default function ProductCard({ title, category, imageSrc, price, referenc
                     <p className="text-[#9C9C9C] text-sm">{reference}</p>
                 </div>
                 <div className="flex flex-col justify-end items-end">
-                    <h2 className="text-2xl font-normal text-[#393939]">{price}</h2>
+                    <h2 className="text-2xl font-normal text-[#393939]">0<sup>€</sup></h2>
                     <p className="bg-[#F1F4F6] text-xs p-1 rounded-xl">{quantity} pièces</p>
                 </div>
             </div>

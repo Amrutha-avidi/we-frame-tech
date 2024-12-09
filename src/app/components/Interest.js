@@ -7,7 +7,6 @@ export default function Interest() {
             category: "ART DE LA TABLE",
             imageSrc:
                 "/Table.png",
-            price: "0€",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -16,7 +15,6 @@ export default function Interest() {
             category: "ART DE LA TABLE",
             imageSrc:
                 "/Table.png",
-            price: "0€",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -25,7 +23,6 @@ export default function Interest() {
             category: "ART DE LA TABLE",
             imageSrc:
                 "/Table.png",
-            price: "0€",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },

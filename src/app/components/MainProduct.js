@@ -45,14 +45,14 @@ export default function MainProduct() {
                                     className="transition-transform duration-500 ease-in-out transform hover:rotate-45"
 
                                 />
-                                <p>20cm</p>
+                                <p>20<sup>cm</sup></p>
                             </div>
                             <div className="flex gap-2">
                                 <img src='/dia.png' alt='dia'
                                     className="transition-transform duration-500 ease-in-out transform hover:rotate-45"
 
                                 />
-                                <p>50cm</p>
+                                <p>50<sup>cm</sup></p>
                             </div>
                         </div>
                         <p className="text-[#9C9C9C] text-xs">
