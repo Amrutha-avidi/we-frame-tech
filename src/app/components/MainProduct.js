@@ -69,7 +69,11 @@ export default function MainProduct() {
                         <div className="flex justify-between items-center border border-1 rounded-md p-2 md:p-3 ">
                             <FiMinus /><span>1</span><FiPlus />
                         </div>
-                        <button className="bg-[#5CD2DD] rounded-md text-white">Ajouter au panier</button>
+
+                        <button className="group relative overflow-hidden bg-[#5CD2DD] rounded-md px-8 py-4 text-white transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bg-[#5CD2DD] hover:to-bg-[#abe8ed] hover:ring-2 hover:ring-bg-[#5CD2DD] hover:ring-offset-2">
+                            <span className="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-40"></span>
+                            <span className="relative">Ajouter au panier</span>
+                        </button>
                     </div>
                 </div>
             </div>

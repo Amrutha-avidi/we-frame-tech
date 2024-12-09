@@ -24,10 +24,15 @@ export default function Register() {
                         placeholder="john@deo.com"
                         className="w-full py-3 px-2 md:py-4 border  border-gray-300 rounded-md"
                     />
-                    <button className="bg-[#5CD2DD] w-full md:w-auto border-0 rounded-md text-white py-3 md:py-4 px-6 flex items-center justify-center">
-                        s&apos;inscrire <GoArrowRight className="ml-2" />
+                    <button className="group relative  w-full md:w-auto rounded-md border-2 border-[#5CD2DD] bg-[#5CD2DD] py-3 md:py-4 px-6 font-medium transition-all hover:bg-white">
+                        <span className="absolute inset-0 rounded border-0 border-white transition-all duration-100 ease-linear group-hover:border-[25px]"></span>
+                        <span className="  flex items-center justify-center relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-[#5CD2DD]"> s&apos;inscrire <GoArrowRight className="ml-2" /></span>
                     </button>
+
+
                 </div>
+              
+
             </div>
         </div>
     );
