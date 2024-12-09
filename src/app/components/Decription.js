@@ -11,11 +11,11 @@ export default function Decription() {
                 </p>
             </div>
             <div className="md:w-1/2 flex flex-row justify-between sm:gap-5 mt-5 md:flex-col md:gap-0">
-                <button className="text-sm text-[#393939] bg-[#FBF9F899] w-full flex justify-between items-center p-3 md:p-5">
+                <button className="text-sm text-[#393939] bg-[#FBF9F899] w-full flex justify-between items-center p-3 md:p-5 transition-all duration-700 hover:scale-105">
                     LIVRAISONS
                     <FiPlus />
                 </button>
-                <button className="text-sm text-[#393939] bg-[#FBF9F899] w-full flex justify-between items-center p-3 md:p-5">
+                <button className="text-sm text-[#393939] bg-[#FBF9F899] w-full flex justify-between items-center p-3 md:p-5 transition-all duration-700 hover:scale-105">
                     QUESTIONS
                     <FiPlus />
 

@@ -4,7 +4,7 @@ export default function ProductCard({ title, category, imageSrc, price, referenc
     return (
         <div className="flex flex-col justify-center bg-[#F9F7F5] rounded-xl  ">
             <div className="flex justify-between items-center p-5">
-                <CiHeart className="w-9 h-9" />
+                <CiHeart className="w-7 h-7 animate-bounce" />
                 <p className="px-1 py-0 rounded-md bg-white text-[10px] text-medium">{category}</p>
             </div>
             <img
