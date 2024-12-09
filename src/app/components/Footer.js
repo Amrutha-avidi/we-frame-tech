@@ -36,13 +36,13 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-end gap-4">
           <h2 className="text-[#393939] text-md font-bold">NOUS SUIVRE</h2>
           <div className="flex gap-3">
-            <div className="p-2 border border-gray-300 rounded-md">
+            <div className="p-2 border border-gray-300 rounded-md hover:shadow-inner hover:shadow-black/30 duration 300 hover:text-blue-600">
               <ImTwitter className="w-6 h-6" />
             </div>
-            <div className="p-2 border border-gray-300 rounded-md">
+            <div className="p-2 border border-gray-300 rounded-md hover:shadow-inner hover:shadow-black/30 duration 300 hover:text-pink-600">
               <FaInstagram className="w-6 h-6" />
             </div>
-            <div className="p-2 border border-gray-300 rounded-md">
+            <div className="p-2 border border-gray-300 rounded-md hover:shadow-inner hover:shadow-black/30 duration 300 hover:text-blue-800">
               <FaLinkedinIn className="w-6 h-6" />
             </div>
           </div>

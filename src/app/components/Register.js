@@ -14,7 +14,10 @@ export default function Register() {
 
             {/* Content Section */}
             <div className="md:w-1/2  bg-[#FFF3F9] rounded-lg md:rounded-3xl p-7">
-                <h2 className="text-[25px] md:text-[45px] text-gray-600">S&apos;inscrire & économiser <span className="text-[#5CD2DD]">10%</span></h2>
+                <h2 className="group text-[25px] md:text-[45px] text-gray-600">S&apos;inscrire & économiser <span className="text-[#5CD2DD]">10%</span>
+                    <div className="bg-pink-300 mt-[-5px] h-[2px] w-0 group-hover:w-[85%] transition-all duration-500"></div>
+
+                </h2>
                 <p className="text-sm md:text-[16px] text-[#BDA2B0] mt-2 leading-6">
                     Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest most opportunity didnt. Yet busy any meeting shark light marginalised 4-blocker message. Productize corporate nail caught synergy highlights lunch. Company another pushback items dear or any.
                 </p>
@@ -22,6 +25,7 @@ export default function Register() {
                     <input
                         type='text'
                         placeholder="john@deo.com"
+
                         className="w-full py-3 px-2 md:py-4 border  border-gray-300 rounded-md"
                     />
                     <button className="group relative  w-full md:w-auto rounded-md border-2 border-[#5CD2DD] bg-[#5CD2DD] py-3 md:py-4 px-6 font-medium transition-all hover:bg-white">
@@ -31,9 +35,8 @@ export default function Register() {
 
 
                 </div>
-              
-
             </div>
+            
         </div>
     );
 }

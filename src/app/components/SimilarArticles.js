@@ -84,10 +84,10 @@ export default function SimilarArticles() {
             </div>
             <div className='flex justify-end items-center'>
                 <Swiper modules={[Navigation]}
-                    spaceBetween={30}
+                    spaceBetween={10}
                     slidesPerView={1}
                     loop={false}
-                    navigation                 
+                    navigation
                     breakpoints={{
                         // small devices
                         640: {
@@ -107,17 +107,16 @@ export default function SimilarArticles() {
                     }}
 
                 >
-                    <div className='grid grid-cols-4 gap-4 w-full px-5'>
-                        {similarProducts.map((data, index) => (
-                            <SwiperSlide key={index} >
-                                <ProductCard {...data} />
-                            </SwiperSlide>
 
-                        ))}
-                    </div>
+                    {similarProducts.map((data, index) => (
+                        <SwiperSlide key={index} >
+                            <ProductCard {...data} />
+                        </SwiperSlide>
+
+                    ))}
 
                 </Swiper>
-            
+
             </div>
         </div>
     )
