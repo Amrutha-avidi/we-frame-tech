@@ -7,6 +7,7 @@ import Interest from "./components/Interest";
 import SimilarArticles from './components/SimilarArticles'
 import Decription from './components/Decription'
 import MainProduct from './components/MainProduct'
+import MenuItems from './components/MenuItems'
 
 
 
@@ -14,9 +15,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <MenuItems />
      <MainProduct />
       <Decription />
-      {/* <SimilarArticles /> */}
+      <SimilarArticles />
       <Interest />
       <TakeCare />
       <Register />
