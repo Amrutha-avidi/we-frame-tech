@@ -6,14 +6,14 @@ import { TfiLightBulb } from "react-icons/tfi";
 import { GrCart } from "react-icons/gr";
 import { FaAngleDown } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
-
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen)
-    }
+        setIsMenuOpen(!isMenuOpen);
+    };
 
     return (
         <nav className="p-4">
@@ -21,7 +21,7 @@ export default function Navbar() {
                 {/* Logo Section */}
                 <div className="flex-shrink-0">
                     <img
-                         src="/logo.png"
+                        src="/logo.png"
                         alt="logo"
                         className="h-9 w-20 md:h-16 md:w-[130px]"
                     />
@@ -35,10 +35,9 @@ export default function Navbar() {
                         className="bg-[#F9FAFB] p-2 h-[40px] md:h-[50px] w-full text-xs md:text-sm pr-10 rounded-md"
                     />
                     <CiSearch
-                        className="absolute inset-y-0 right-3 top-2 md:top-3 text-gray-500 w-5 h-5 "
+                        className="absolute inset-y-0 right-3 top-2 md:top-3 text-gray-500 w-5 h-5"
                     />
                 </div>
-                
 
                 {/* Menu Items (Desktop) */}
                 <div className="hidden md:flex items-center gap-5">
@@ -48,7 +47,7 @@ export default function Navbar() {
                     </div>
                     <div className="flex items-center gap-2">
                         <CiHeart style={{ width: '20px', height: '22px' }} />
-                        <p>Mes favois</p>
+                        <p>Mes favoris</p>
                         <span className="bg-[#F9FAFB] rounded-xl pl-2 pr-2 text-xs text-black">
                             24
                         </span>
@@ -74,15 +73,25 @@ export default function Navbar() {
             </div>
 
             {/* Mobile Dropdown Menu */}
-            {isMenuOpen && (
-                <div className="absolute top-16 right-0 flex flex-col gap-3 mt-4 p-4 bg-white shadow-lg rounded-md">
+            <div
+                className={`absolute top-0 left-0 w-full bg-[#eef8fc] shadow-lg rounded-md overflow-hidden transform transition-transform duration-500 ease-in-out z-50 ${isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+                    }`}
+            >
+                {/* Close Button */}
+                <div className="flex justify-end p-4">
+                    <AiOutlineClose
+                        className="w-6 h-6 text-gray-700 cursor-pointer"
+                        onClick={toggleMenu}
+                    />
+                </div>
+                <div className="flex flex-col items-center gap-3  pb-5">
                     <div className="flex items-center gap-2 text-sm">
                         <TfiLightBulb className="w-4 h-4" />
                         <p>Inspirations</p>
                     </div>
                     <div className="flex items-center gap-2">
                         <CiHeart className="w-4 h-4" />
-                        <p>Mes favois</p>
+                        <p>Mes favoris</p>
                         <span className="bg-[#F9FAFB] rounded-xl pl-2 pr-2 text-xs text-black">
                             24
                         </span>
@@ -97,9 +106,7 @@ export default function Navbar() {
                         <FaAngleDown className="w-4 h-4" />
                     </div>
                 </div>
-            )}
+            </div>
         </nav>
-
-
     );
 }
