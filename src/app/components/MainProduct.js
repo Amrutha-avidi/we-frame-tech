@@ -25,7 +25,11 @@ export default function MainProduct() {
                         <h1 className="text-3xl text-[#111928] font-serif">
                             Cheese – appareil à raclette 1/2 roue
                         </h1>
-                        <CiHeart className="w-10 h-10" />
+                        <span className="w-15 h-14 md:h-15 animate-pulse rounded-full p-2 bg-red-400 text-white ">
+                            <CiHeart className="w-10 h-10" />
+
+                        </span>
+
                     </div>
                     <div className="flex items-center gap-2">
                         <h2 className="text-2xl text-[#111928] " >
@@ -37,11 +41,17 @@ export default function MainProduct() {
                     <div className="flex justify-between items-center" >
                         <div className="flex gap-5 items-center">
                             <div className="flex gap-2">
-                                <img src='/scale.png' alt='scale' />
+                                <img src='/scale.png' alt='scale'
+                                    className="transition-transform duration-500 ease-in-out transform hover:rotate-45"
+
+                                />
                                 <p>20cm</p>
                             </div>
                             <div className="flex gap-2">
-                                <img src='/dia.png' alt='dia' />
+                                <img src='/dia.png' alt='dia'
+                                    className="transition-transform duration-500 ease-in-out transform hover:rotate-45"
+
+                                />
                                 <p>50cm</p>
                             </div>
                         </div>
@@ -71,7 +81,7 @@ export default function MainProduct() {
                         </div>
 
                         <button className="group relative overflow-hidden bg-[#5CD2DD] rounded-md px-8 py-4 text-white transition-all duration-300 ease-out hover:bg-gradient-to-r hover:from-bg-[#5CD2DD] hover:to-bg-[#abe8ed] hover:ring-2 hover:ring-bg-[#5CD2DD] hover:ring-offset-2">
-                            <span className="ease absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-40"></span>
+                            <span className="ease absolute right-0 -mt-12 h-32 w-8 translate-x-40 rotate-12 transform bg-white opacity-10 transition-all duration-700 group-hover:-translate-x-40"></span>
                             <span className="relative">Ajouter au panier</span>
                         </button>
                     </div>
