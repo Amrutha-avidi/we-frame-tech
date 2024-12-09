@@ -79,7 +79,7 @@ export default function SimilarArticles() {
     return (
         <div className="p-7">
             <div className="flex justify-between">
-                <h1 className="text-[#393939] text-2xl">Articles similaires</h1>
+                <h2 className="text-[#393939] text-2xl">Articles similaires</h2>
                 <p className="text-xs underline">VOIR TOUTE LA COLLECTION </p>
             </div>
             <div className='flex justify-end items-center'>

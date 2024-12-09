@@ -34,7 +34,7 @@ export default function Interest() {
     return (
         <div className="p-7">
             <div className="flex justify-between">
-                <h1 className="text-[#393939] text-2xl">Ces produits pourraient vous intéresser</h1>
+                <h2 className="text-[#393939] text-2xl">Ces produits pourraient vous intéresser</h2>
                 <p className="text-xs underline">VOIR TOUTE LA COLLECTION </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 p-1 gap-6 mt-5 w-full">

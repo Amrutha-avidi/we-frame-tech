@@ -14,11 +14,11 @@ export default function ProductCard({ title, category, imageSrc, price, referenc
             />
             <div className="flex justify-between bg-white pt-3">
                 <div className="flex flex-col gap-1">
-                    <h1 className="text-xl font-normal text-[#393939]">{title}</h1>
+                    <h2 className="text-xl font-normal text-[#393939]">{title}</h2>
                     <p className="text-[#9C9C9C] text-sm">{reference}</p>
                 </div>
                 <div className="flex flex-col justify-end items-end">
-                    <h1 className="text-2xl font-normal text-[#393939]">{price}</h1>
+                    <h2 className="text-2xl font-normal text-[#393939]">{price}</h2>
                     <p className="bg-[#F1F4F6] text-xs p-1 rounded-xl">{quantity} pièces</p>
                 </div>
             </div>
