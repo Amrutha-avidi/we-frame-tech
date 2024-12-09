@@ -6,7 +6,7 @@ export default function Interest() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png",
+                "/Table.png",
             price: "0€",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
@@ -15,7 +15,7 @@ export default function Interest() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png",
+                "/Table.png",
             price: "0€",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
@@ -24,7 +24,7 @@ export default function Interest() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png",
+                "/Table.png",
             price: "0€",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,

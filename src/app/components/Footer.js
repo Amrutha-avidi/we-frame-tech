@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
         <div className="flex flex-col justify-center items-center text-center md:flex-row gap-10 md:text-left" >
           <img
-            src="https://res.cloudinary.com/drpddho9b/image/upload/v1733591495/Group_bksdhl.png"
+            src="/logo.png"
             alt="logo"
             className="h- w-26 md:h-16 md:w-[130px]"
           />

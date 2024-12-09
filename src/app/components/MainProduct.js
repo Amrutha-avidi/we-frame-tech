@@ -7,14 +7,13 @@ export default function MainProduct() {
         <div className="flex flex-col md:flex md:flex-row  justify-center gap-5 p-5 md:p-7 ">
             <div className="bg-[#F8F6F4] md:w-1/2 flex flex-col md:flex md:flex-row    p-2 rounded-2xl">
                 <div className="flex md:flex-col gap-1">
-                    <img className="w-[55px] h-[55px] bg-white p-2 rounded-md" src='https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png' alt='table' />
-                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png' alt='table' />
-                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png' alt='table' />
-
-                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2  rounded-md" src='https://res.cloudinary.com/drpddho9b/image/upload/v1733663420/Table_ronde_165cm_Festi_1-removebg-preview_puoozf.png' alt='table' />
+                    <img className="w-[55px] h-[55px] bg-white p-2 rounded-md" src='/Table.png' alt='table' />
+                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='/Table.png' alt='table' />
+                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='/Table.png' alt='table' />
+                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2  rounded-md" src='/Table.png' alt='table' />
                 </div>
                 <div className="md:m-10 flex flex-col justify-center items-center">
-                    <img className=" w-[400px] h-[400px] md:w-[560px] md:h-[560px]  " src='https://res.cloudinary.com/drpddho9b/image/upload/v1733678728/Location_Cheese_big_picture_1-removebg-preview_qmxokj.png' alt='cheese machine' />
+                    <img className=" w-[400px] h-[400px] md:w-[560px] md:h-[560px]  " src='/Cheese.png' alt='cheese machine' />
 
                 </div>
 
@@ -38,11 +37,11 @@ export default function MainProduct() {
                     <div className="flex justify-between items-center" >
                         <div className="flex gap-5 items-center">
                             <div className="flex gap-2">
-                                <img src='https://res.cloudinary.com/drpddho9b/image/upload/v1733678649/Capa_1_yynk4v.png' alt='scale' />
+                                <img src='/scale.png' alt='scale' />
                                 <p>20cm</p>
                             </div>
                             <div className="flex gap-2">
-                                <img src='https://res.cloudinary.com/drpddho9b/image/upload/v1733678649/Frame_pm72ve.png' alt='dia' />
+                                <img src='/dia.png' alt='dia' />
                                 <p>50cm</p>
                             </div>
                         </div>
