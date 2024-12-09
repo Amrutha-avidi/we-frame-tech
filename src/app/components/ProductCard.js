@@ -1,6 +1,5 @@
 import { CiHeart } from "react-icons/ci";
 
-// Reusable Card Component
 export default function InterestCard({ title, category, imageSrc, price, reference, quantity }) {
     return (
         <div className="flex flex-col justify-center bg-[#F9F7F5] rounded-xl">
