@@ -6,7 +6,7 @@ export default function Register() {
             {/* Image Section */}
             <div className="md:w-1/2">
                 <img
-                    className="w-full h-[150px] md:h-auto rounded-lg md:rounded-3xl"
+                    className="w-full h-36 md:h-auto rounded-lg md:rounded-3xl"
                     src='/Register.png'
                     alt='register'
                 />
