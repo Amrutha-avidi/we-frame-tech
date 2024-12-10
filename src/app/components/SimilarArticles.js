@@ -17,7 +17,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -25,7 +25,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -33,7 +33,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -41,7 +41,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -49,7 +49,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -57,7 +57,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },
@@ -65,7 +65,7 @@ export default function SimilarArticles() {
             title: "Title",
             category: "ART DE LA TABLE",
             imageSrc:
-                "/Table.png",
+                "/tabl.png",
             reference: "0,35€/Pièce · RÉF : VABGN5",
             quantity: 20,
         },

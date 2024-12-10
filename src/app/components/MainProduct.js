@@ -8,10 +8,10 @@ export default function MainProduct() {
             {/*Image section */}
             <div className="bg-[#F8F6F4] md:w-1/2 flex flex-col md:flex md:flex-row    p-2 rounded-2xl">
                 <div className="flex md:flex-col gap-1">
-                    <img className="w-[55px] h-[55px] bg-white p-2 rounded-md" src='/Table.png' alt='table' />
-                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='/Table.png' alt='table' />
-                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='/Table.png' alt='table' />
-                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2  rounded-md" src='/Table.png' alt='table' />
+                    <img className="w-[55px] h-[55px] bg-white p-2 rounded-md" src='/tabl.png' alt='table' />
+                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='/tabl.png' alt='table' />
+                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2 rounded-md" src='/tabl.png' alt='table' />
+                    <img className="w-[55px] h-[55px] opacity-60 bg-white p-2  rounded-md" src='/tabl.png' alt='table' />
                 </div>
                 <div className="md:m-10 flex flex-col justify-center items-center">
                     <img className=" w-[400px] h-[400px] md:w-[560px] md:h-[560px]  " src='/Chees.png' alt='cheese machine' />
