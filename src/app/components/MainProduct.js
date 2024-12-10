@@ -14,7 +14,7 @@ export default function MainProduct() {
                     <img className="w-[55px] h-[55px] opacity-60 bg-white p-2  rounded-md" src='/Table.png' alt='table' />
                 </div>
                 <div className="md:m-10 flex flex-col justify-center items-center">
-                    <img className=" w-[400px] h-[400px] md:w-[560px] md:h-[560px]  " src='/Cheese.png' alt='cheese machine' />
+                    <img className=" w-[400px] h-[400px] md:w-[560px] md:h-[560px]  " src='/Chees.png' alt='cheese machine' />
 
                 </div>
 

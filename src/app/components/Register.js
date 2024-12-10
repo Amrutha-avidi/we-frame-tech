@@ -7,7 +7,7 @@ export default function Register() {
             <div className="md:w-1/2">
                 <img
                     className="w-full h-[150px] md:h-auto rounded-lg md:rounded-3xl"
-                    src='https://res.cloudinary.com/drpddho9b/image/upload/v1733645914/BUFFET_037_1_hvrzhx.png'
+                    src='/Register.png'
                     alt='register'
                 />
             </div>
